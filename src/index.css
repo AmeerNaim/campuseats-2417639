@@ -50,7 +50,7 @@ body { margin: 0; }
   font-weight: 800;
   margin: 1.5rem 0 0.85rem;
   background: linear-gradient(90deg, #ff416c, #5352ed);
-  -webkit-background-clip: text;
+ * { box-sizing: border-box; }
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
