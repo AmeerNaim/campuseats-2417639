@@ -1,15 +1,23 @@
-function MenuItemCard({ item, onAdd }) {
+function MenuItemCard({ item, onAdd, onView }) {
   return (
-    <article className="card menu-card">
+    <article
+      className="card menu-card"
+      style={{ cursor: 'pointer' }}
+      onClick={() => onView && onView(item)}
+    >
       <div className="thumb" aria-hidden="true">{item.name.charAt(0)}</div>
       <p className="tag">{item.category}</p>
       <h3>{item.name}</h3>
       <p className="muted">{item.description}</p>
       <p className="price">RM {item.price.toFixed(2)}</p>
       <button
+        type="button"
         className="btn"
         disabled={!item.available}
-        onClick={() => onAdd(item)}
+        onClick={(e) => {
+          e.stopPropagation()
+          onAdd(item)
+        }}
       >
         {item.available ? 'Add to cart' : 'Sold out'}
       </button>

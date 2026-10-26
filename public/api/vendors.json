@@ -1,0 +1,43 @@
+[
+  {
+    "id": "2417639-warung-selera-timur",
+    "name": "Warung Selera Timur",
+    "location": "Mahallah Ali, Block A, Ground Floor",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2417639-wst-1", "name": "Nasi Kerabu Ayam Percik", "description": "Blue herb rice with grilled spiced chicken and keropok", "price": 8.5, "category": "Rice", "available": true },
+      { "id": "2417639-wst-2", "name": "Mee Celup Special", "description": "Savory Thai-style noodle soup with beef slices and lime", "price": 6.5, "category": "Noodles", "available": true },
+      { "id": "2417639-wst-3", "name": "Teh Beng Madu", "description": "Creamy iced milk tea topped with sweet honey foam", "price": 3.5, "category": "Drinks", "available": false },
+      { "id": "2417639-wst-4", "name": "Laksam Terengganu", "description": "Thick rolled flat rice noodles in rich coconut fish gravy", "price": 6.0, "category": "Noodles", "available": true },
+      { "id": "2417639-wst-5", "name": "Nasi Dagang Ikan Tongkol", "description": "Fragrant reddish rice with traditional tuna curry and pickles", "price": 9.0, "category": "Rice", "available": true },
+      { "id": "2417639-wst-6", "name": "Keropok Lekor Goreng", "description": "Freshly fried Terengganu fish sausage with sweet chili dip", "price": 4.0, "category": "Snacks", "available": true },
+      { "id": "2417639-wst-7", "name": "Kopi O Kaw Peng", "description": "Strong iced Hainanese black coffee with cane sugar", "price": 2.5, "category": "Drinks", "available": true },
+      { "id": "2417639-wst-8", "name": "Pulut Panggang Sambal", "description": "Char-grilled sticky rice wrapped in banana leaf stuffed with fish sambal", "price": 3.0, "category": "Snacks", "available": true }
+    ]
+  },
+  {
+    "id": "2415666-kafe-aminah",
+    "name": "Kafe Mahallah Aminah",
+    "location": "Mahallah Aminah, Ground Floor",
+    "openHours": "8:00 am - 9:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2415666-ami-1", "name": "Nasi Ayam Penyet", "description": "Smashed fried chicken with spicy sambal, tempeh, and rice", "price": 9.0, "category": "Rice", "available": true },
+      { "id": "2415666-ami-2", "name": "Char Kuey Teow Basah", "description": "Wok-fried flat noodles with prawns, cockles, and chives", "price": 6.5, "category": "Noodles", "available": true },
+      { "id": "2415666-ami-3", "name": "Air Bandung Cincau", "description": "Chilled rose syrup milk topped with grass jelly strips", "price": 3.0, "category": "Drinks", "available": true }
+    ]
+  },
+  {
+    "id": "2410233-koppiku-corner",
+    "name": "Koppiku & Toast Corner",
+    "location": "KICT Courtyard, Level 1",
+    "openHours": "8:00 am - 6:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2410233-kop-1", "name": "Iced Spanish Latte", "description": "Rich double-shot Arabica espresso with sweetened condensed milk", "price": 7.9, "category": "Coffee", "available": true },
+      { "id": "2410233-kop-2", "name": "Smoked Beef Croissant", "description": "Buttery flaky croissant stuffed with smoked beef and cheddar", "price": 8.5, "category": "Bakery", "available": true },
+      { "id": "2410233-kop-3", "name": "Matcha Yuzu Fizz", "description": "Refreshing sparkling yuzu citrus topped with ceremonial matcha", "price": 8.0, "category": "Drinks", "available": true }
+    ]
+  }
+]
