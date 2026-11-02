@@ -1,8 +1,11 @@
-function MenuItemCard({ item, onAdd, onView }) {
+import { useCart } from '../hooks/useCart.js'
+
+function MenuItemCard({ item, vendorId, onView }) {
+  const { addToCart } = useCart()
+
   return (
     <article
       className="card menu-card"
-      style={{ cursor: 'pointer' }}
       onClick={() => onView && onView(item)}
     >
       <div className="thumb" aria-hidden="true">{item.name.charAt(0)}</div>
@@ -16,7 +19,7 @@ function MenuItemCard({ item, onAdd, onView }) {
         disabled={!item.available}
         onClick={(e) => {
           e.stopPropagation()
-          onAdd(item)
+          addToCart(item, vendorId)
         }}
       >
         {item.available ? 'Add to cart' : 'Sold out'}

@@ -20,3 +20,9 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for: Guidance on controlled checkout form validation, useEffect data fetching with AbortController, and Feature 9 (Recently Viewed items) for matric ending in 9.
 - What I kept, changed or rejected, and why: Adopted the array-deduplication slice logic for recently viewed items and the derived cart total calculation using reduce.
 - One thing the AI got wrong and how I fixed it: None.
+
+## Week 4
+- Tool(s): Gemini
+- What I asked for: Extracting custom hooks (useLocalStorage, useVendors, useCart), configuring React Router v8 nested routes with Layout and Outlet, and implementing persistent Recently Viewed item links for matric ending in 9.
+- What I kept, changed or rejected, and why: Adopted the CartProvider wrapper with localStorage persistence and programmatic navigation using useNavigate() to /orders.
+- One thing the AI got wrong and how I fixed it: None.
